@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  font-family:Verdana, "Geneva", Tahoma, sans-serif
+}
+
+main {
+  width: 150px;
+  margin: 32px auto;
+  text-align: center;
+}
+
+section {
+  border: 6px double red;
+  padding: 8px;
+  background-image: url(img/daruma1_red-1.png);
+  background-position: center bottom;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  margin-bottom: 16px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 14px;
+  border-bottom: 1px solid red;
+  padding-bottom: 8px;
+}
+
+p {
+  margin: 0;
+  padding: 8px;
+  height: 180px;
+  font-size: 56px;
+  font-weight: bold;
+  color: red;
+  margin-bottom: 96px;
+  border-bottom: 1px solid red;
+}
+
+button {
+  all: unset;
+  background: hsl(44, 84%, 53%);
+  box-shadow: 0 4px hsl(44, 84%, 43%);
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+button:active {
+  box-shadow: 0 1px hsl(44, 84%, 43%);
+  transform: translateY(3px); 
+  opacity: 1;
+}
