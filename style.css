@@ -60,3 +60,14 @@ button:active {
   transform: translateY(3px); 
   opacity: 1;
 }
+
+@media (min-width: 600px) {
+  button:active {
+    box-shadow: 0 4px hsl(44, 84%, 43%);
+    transform: none; 
+  }
+
+  button:hover {
+    opacity: 1;
+  }
+}
