@@ -30,13 +30,16 @@ h1 {
 
 p {
   margin: 0;
-  padding: 8px;
+  padding: 0 16px;
   height: 170px;
   font-size: 56px;
+  width: 100%;
   font-weight: bold;
   color: red;
   margin-bottom: 96px;
   border-bottom: 1px solid red;
+  writing-mode: vertical-rl;
+  box-sizing: border-box;
 }
 
 button {
