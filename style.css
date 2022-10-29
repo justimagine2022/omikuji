@@ -31,7 +31,7 @@ h1 {
 p {
   margin: 0;
   padding: 8px;
-  height: 160px;
+  height: 170px;
   font-size: 56px;
   font-weight: bold;
   color: red;
@@ -58,5 +58,4 @@ button:hover {
 button:active {
   box-shadow: 0 1px hsl(44, 84%, 43%);
   transform: translateY(3px); 
-  opacity: 1;
 }
